@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> QuickBooking | Booking Hotels With us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="navbar">
+            <a href="#" class="logo-link">
+                Quick<span>Booking</span>
+            </a>
+            <div class="navigation" id="navigation">
+                <a href="#home" class="link active">home</a>
+                <a href="#about" class="link">about</a>
+                <a href="#services" class="link">services</a>
+                <a href="#news" class="link">news</a>
+               <a href="#contact" class="link">Contact</a>
+
+            </div>
+            <div class="controls" id="controls">
+                <span class="icon"><i class='bx bx-user'></i></span>
+                <span class="icon"><i class='bx bx-search'></i></span>
+                <span class="icon menu" id="menu"><i class='bx bx-menu-alt-right'></i></span>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <div class="content">
+                        <h1 class="title">
+                            Booking A Luxury Hotel <br>
+                        </h1>
+                        <div class="desc">
+                            <p>
+                                We have contact with the best 2.2k Luxury Hotels in All the word
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <button class="btn">Discover now</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <h1 class="title">Booking Your Hotel</h1>
+
+                        <form action="" class="form">
+                            <div class="line">
+                                <label for="">Check in:</label>
+                                <input type="date" name="in" id="in" class="input">
+                            </div>
+                            <div class="line">
+                                <label for="">Check out:</label>
+                                <input type="date" name="out" id="out" class="input">
+                            </div>
+
+                            <div class="line">
+                                <label for="">Guests:</label>
+                                <select name="guests" id="Guests" class="input">
+                                    <option value="1">1 Adult</option>
+                                    <option value="2">2 Adults</option>
+                                    <option value="3">2 Adults + 1 kid</option>
+                                    <option value="4">2 Adults + 2 kids</option>
+                                    <option value="5">4 Adults + 2 kids</option>
+                                    <option value="6">4 Adults + 3 kids</option>
+                                    <option value="7">4 Adults + 4 kids</option>
+                                </select>
+                            </div>
+                            <div class="line">
+                                <label for="">Rooms:</label>
+                                <select name="Roomss" id="Rooms" class="input">
+                                    <option value="1">1 Room</option>
+                                    <option value="2">2 Rooms</option>
+                                    <option value="3">3 Rooms</option>
+                                    <option value="4">4 Romms</option>
+                                    <option value="5">1 Room + 1 kids Room</option>
+                                    <option value="5">2 Room + 2 kids Room</option>
+                                    <option value="5">1 Room + 2 kids Room</option>
+                                </select>
+                            </div>
+                            
+                               <div class="line">
+  <button class="btn" id="checkBtn">Check Availability</button>
+</div>
+
+
+                            </div>
+                            <div class="line">
+    <p id="availabilityMessage" class="availability-message"></p>
+</div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="heading">
+                <h2 class="subtitle">About Us</h2>
+                <h1 class="title">Intercontinental  hotel rating and booking reservation</h1>
+            </div>
+            <div class="heading">
+                <div class="desc">
+                    <p>
+                        At QuickBooking, we make hotel booking simple, fast, and stress-free.
+                         Whether you're planning a business trip, weekend getaway, or a family vacation,
+                          our platform helps you find the perfect stay at the best price — anytime, anywhere
+                    </p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item">
+
+                    <h1 class="item-title active">Our World List</h1>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="abt1.JPG" alt="" srcset="">
+                    </div>
+                    <h1 class="item-title">Our List In East Europe</h1>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="abt2.jpg" alt="" srcset="">
+                    </div>
+                    <h1 class="item-title">Our List In West Europe</h1>
+
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="abt3.jpg" alt="" srcset="">
+                    </div>
+                    <h1 class="item-title">Our List In North Amirica</h1>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="heading">
+                <h2 class="subtitle">What We Offer!</h2>
+                <h1 class="title">Discover Our Services <br> All You need for best luxury travling</h1>
+            </div>
+            <div class="heading">
+                <div class="desc">
+                    <p>
+                        Booking hotels has never been easier. Whether you're planning a relaxing vacation or a quick business trip,
+                         we help you find the best stays at unbeatable prices.
+                        With personalized recommendations, real guest reviews, and smart search filters,
+                         you're always just a few clicks away from the perfect hotel
+                    </p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="image">
+                        <i class='bx bxs-plane-land'></i>
+                    </div>
+                    <h1 class="item-title">Travel Plan</h1>
+                    <div class="item-desc">
+                        <p>
+                            Start planning your next trip with ease. From choosing the right destination to finding the perfect hotel,
+                             we’re here to make your travel planning smooth, simple, and stress-free
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <i class='bx bxs-bus'></i>
+                    </div>
+                    <h1 class="item-title">Travel Transport</h1>
+                    <div class="item-desc">
+                        <p>
+                            Getting there is just as important as where you stay.
+                             Find transport options that fit your travel plans — from local taxis to airport transfers and more
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <i class='bx bxs-parking'></i>
+                    </div>
+                    <h1 class="item-title">Cars Parking</h1>
+                    <div class="item-desc">
+                        <p>Traveling by car? We’ve got you covered.
+                             Find hotels with secure parking options and hassle-free access, so you can arrive and relax with ease
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <i class='bx bx-restaurant'></i>
+                    </div>
+                    <h1 class="item-title">restaurant and healty food</h1>
+                    <div class="item-desc">
+                        <p>
+                            Craving something delicious? Discover hotels with on-site restaurants and healthy dining options nearby
+                             — so you can eat well wherever you stay.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <i class='bx bxs-baby-carriage'></i>
+                    </div>
+                    <h1 class="item-title">babysitting</h1>
+                    <div class="item-desc">
+                        <p>
+                            Traveling with kids? Find hotels that offer trusted babysitting and childcare services, 
+                            so you can relax while your little ones are in safe hands
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <i class='bx bx-closet'></i>
+                    </div>
+                    <h1 class="item-title">Laundry</h1>
+                    <div class="item-desc">
+                        <p>
+                            Stay fresh throughout your trip. 
+                            Find hotels that offer laundry services, so you can travel light and stress-free.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="blog" id="news">
+        <div class="container">
+            <div class="heading">
+                <h2 class="subtitle">Hoels & Travel News</h2>
+                <h1 class="title"> <span>Our Blog</span> <br> Latest news and tricks in our domain</h1>
+            </div>
+            <div class="heading">
+                <div class="desc">
+                    <p>
+                        Travel smarter with tips, tricks, and updates from the world of hotels and travel planning
+                    </p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="image">
+                        <img src="htl1.jpg" alt="" srcset="">
+                    </div>
+                    <h1 class="item-title">Travel Plan</h1>
+                    <div class="item-desc">
+                        <p>Build your perfect travel plan — choose your destination, book hotels, 
+                            and organize transport, food, and more in one place
+                          
+                        </p>
+                    </div>
+                    <div class="date">
+                        <i class='bx bx-calendar'></i>
+                        <span>15TH APRIL.</span>
+                        <span>2025</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="htl2.jpg" alt="" srcset="">
+                    </div>
+                    <h1 class="item-title">Travel Transport</h1>
+                    <div class="item-desc">
+                        <p>
+                            Plan your trip with reliable transport options — from airport pickups to local rides, all matched to your hotel booking
+                        </p>
+                    </div>
+                    <div class="date">
+                        <i class='bx bx-calendar'></i>
+                        <span>15TH APRIL.</span>
+                        <span>2025</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="htl3.jpg" alt="" srcset="">
+                    </div>
+                    <h1 class="item-title">Cars Parking</h1>
+                    <div class="item-desc">
+                        <p>
+                            We’ve added new listings with free and secure parking options — making road trip planning easier than ever
+                        </p>
+                    </div>
+                    <div class="date">
+                        <i class='bx bx-calendar'></i>
+                        <span>15TH APRIL.</span>
+                        <span>2025</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <div class="head">
+                        <a href="#" class="logo-link">
+                            Quick<span>Booking</span>
+                        </a>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            Inspire and reach millionsof travels across by 90 locals arounds of world
+                        </p>
+                    </div>
+                    
+                        <div class="social">
+  <a href="https://facebook.com" class="icon" title="Facebook" target="_blank">
+    <i class='bx bxl-facebook'></i>
+  </a>
+  <a href="https://twitter.com" class="icon" title="Twitter" target="_blank">
+    <i class='bx bxl-twitter'></i>
+  </a>
+  <a href="https://instagram.com" class="icon" title="Instagram" target="_blank">
+    <i class='bx bxl-instagram'></i>
+  </a>
+  <a href="https://pinterest.com" class="icon" title="Pinterest" target="_blank">
+    <i class='bx bxl-pinterest-alt'></i>
+  </a>
+</div>
+
+            
+
+                
+                <div class="item">
+                    <div class="head">
+                        <h1 class="title">Contact us</h1>
+                    </div>
+                    <div class="links">
+                        <a href="#" class="link">+91 60371 87987</a>
+                       <a href="mailto:info@QuickBooking.com" class="link" title="Send us an email">
+  <i class='bx bx-envelope'></i> info@QuickBooking.com
+</a>
+
+
+                     <a href="#" class="link">956 Red Park line , Apt.659. Lake, Mumbai, India</a>
+
+                    </div>
+
+                </div>
+                <div class="item">
+                    
+                </div>
+                <div class="item">
+                    <div class="head">
+                        <h1 class="title">new Latest</h1>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            get the latest updates and offers.
+                        </p>
+                    </div>
+
+                    <form action="" class="form">
+                        <input type="email">
+                        <button><i class='bx bx-send'></i></button>
+                    </form>
+                </div>
+            </div>
+ 
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="col">
+                    <a href="#contact" class="link">Contact</a>
+                    <a href="#" class="link">Terms & Conditions</a>
+                    <a href="#" class="link">Privacy</a>
+                    <a href="#" class="link">Entertainment Policy</a>
+                </div>
+                <div class="col">
+                    <p>
+                        All Rights Reserved &#169; 2025 | made by <a href="#">Nidhishri</a>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+
+    const menu = document.getElementById('menu')
+    const navigation = document.getElementById('navigation')
+
+    menu.addEventListener('click', () => {
+        navigation.classList.toggle('active')
+    })
+
+    // Availability checker
+    const checkBtn = document.getElementById("checkBtn");
+    const checkIn = document.getElementById("in");
+    const checkOut = document.getElementById("out");
+    const messageBox = document.getElementById("availabilityMessage");
+
+    checkBtn.addEventListener("click", function (e) {
+        e.preventDefault(); // prevent actual form submission
+
+        if (!checkIn.value || !checkOut.value) {
+            messageBox.innerText = "Please select both check-in and check-out dates.";
+            messageBox.style.color = "#cf4624";
+            return;
+        }
+
+        messageBox.innerHTML = `<i class='bx bx-loader bx-spin'></i> Checking availability...`;
+        messageBox.style.color = "#444";
+
+        setTimeout(() => {
+            messageBox.innerHTML = `<i class='bx bx-check-circle'></i> Available! Rooms found.`;
+            messageBox.style.color = "green";
+        }, 2000);
+    });
+
+
+        const links = document.querySelectorAll('.navigation .link');
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    navigation.classList.remove('active');
+  });
+});
+
+
+    </script>
+</body>
+
+</html>
